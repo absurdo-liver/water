@@ -1,0 +1,11 @@
+body{
+ margin-top: 20px;
+ text-align: center;
+}
+
+
+textarea {
+ field-sizing: content;
+ white-space: pre-line;
+ min-width: 20vw;
+}
