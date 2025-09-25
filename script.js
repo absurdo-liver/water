@@ -3,7 +3,9 @@ const inputField = document.getElementById('inputField');
 
 
 var topp = [];
+var inBtwTM = [];
 var mid = [];
+var inBtwMB = [];
 var bot = [];
 
 
@@ -16,43 +18,59 @@ async function water() {
     mid = [];
     bot = [];
 
-    let skyState1 = ['                                           '];
-    let skyState2 = ['                                           '];
-    let skyState3 = ['                                           '];
-    let skyState4 = ['                                           '];
-    let midState1 = ['                                           '];
-    let midState2 = ['                                           '];
-    let midState3 = ['                                           '];
-    let midState4 = ['                                           '];
+    let midState1 =    ['                    |̾͟_̃~̲•͕              '];
+    let midState2 =    ['                    |͟_̃̂~̲•͕              '];
+    let midState3 =    ['                    |͟_̃*͇•͕              '];
+    let midState4 =    ['                    |͟_̃~̲•͕              '];
+    let btwmidState1 = ['            ∘∘=__̰__̰_̰_|_̰_̰___̰__༚=∘∘              '];
+    let btwmidState2 = ['            ∘∘=_̰_̰___̰_|_̰__̰_̰___༚=∘∘              '];
+    let btwmidState3 = ['            ∘∘=__̰_̰_̰__̰|_̰_̰___̰__༚=∘∘              '];
+    let btwmidState4 = ['            ∘∘=__̰___̰_|__̰__̰_̰_̰_༚=∘∘              '];
 
-    let waterState1 = ['-⎽__⎽-⎻⎺⎺⎻-⎽__⎽--⎽__⎽-⎻⎻⎺⎺⎻-⎽⎽-⎻⎺⎺⎻-⎽__⎽--⎽_'];
-    let waterState2 = ['_⎽-⎻⎺⎺⎻-⎽__⎽--⎽__⎽-⎻⎺⎺⎻-⎽⎽-⎻⎺⎻⎺⎻-⎽__⎽-⎽__⎽-⎻'];
-    let waterState3 = ['⎻⎺⎺⎻-⎽__⎽--⎽⎽__⎽-⎻⎺⎺⎻-⎽⎽-⎻⎺⎺⎻-⎽__⎽---⎽__⎽-⎻⎺'];
-    let waterState4 = ['⎺⎻-⎽__⎽--⎽__⎽-⎻⎺⎺⎻-⎽⎽-⎻⎺⎺⎻-⎽__⎽--⎽__⎽-⎻⎻⎺⎺⎻-'];
+    let waterState1 =  ['-҈⎽__⎽-҈⎻⎺⎺⎻--⎽_\\¯⎻--___--⎻͒⎻¯／-⎽⎽-҈⎻⎺⎺⎻-⎽__⎽--҈⎽_'];
+    let waterState2 =  ['_⎽-҈⎻⎺⎺⎻-⎽__⎽-҈-\\¯⎻--__⎽͒--⎻⎻¯／⎻⎺⎻⎺⎻-⎽__⎽-⎽_҈_⎽-⎻'];
+    let waterState3 =  ['⎻⎺⎺⎻-҈⎽__⎽--⎽⎽_\\¯⎻--_͒⎽_--⎻⎻¯／⎻⎻-⎽__⎽-҈--⎽__⎽-⎻⎺'];
+    let waterState4 =  ['⎺⎻-҈⎽__⎽-҈-⎽__⎽-\\¯⎻͒--⎽__--⎻⎻¯／⎽__⎽--⎽_҈_⎽-⎻⎻⎺⎺⎻-҈'];
 
 
     let stateProgress = 1;
 
     strInt = setInterval(() => {
         if (stateProgress === 1) {
-            topp = skyState1;
+
             mid = midState1;
+
+            inBtwMB = btwmidState1;
+
             bot = waterState1;
+
             stateProgress = 2;
         } else if (stateProgress === 2) {
-            topp = skyState2;
+
             mid = midState2;
+
+            inBtwMB = btwmidState2;
+            
             bot = waterState2;
+
             stateProgress = 3;
         } else if (stateProgress === 3) {
-            topp = skyState3;
+
             mid = midState3;
+            
+            inBtwMB = btwmidState3;
+            
             bot = waterState3;
+
             stateProgress = 4;
         } else if (stateProgress === 4) {
-            topp = skyState4;
+
             mid = midState4;
+            
+            inBtwMB = btwmidState4;
+            
             bot = waterState4;
+
             stateProgress = 1;
         }
         updateTextField();
@@ -87,7 +105,7 @@ function handleInput() {
 
 
 function updateTextField() {
-    let outText = topp.join('') + '\n\n' + mid.join('') + '\n\n' + bot.join('');
+    let outText = topp.join('') + '\n' + inBtwTM.join('') + '\n' + mid.join('') + '\n' + inBtwMB.join('') + '\n' + bot.join('');
     textField.textContent = outText;
 }
 
