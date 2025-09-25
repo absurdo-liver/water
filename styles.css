@@ -8,4 +8,5 @@ textarea {
  field-sizing: content;
  white-space: pre-line;
  min-width: 20vw;
+ min-height: 20vh;
 }
