@@ -7,6 +7,6 @@ body{
 textarea {
  field-sizing: content;
  white-space: pre-line;
- min-width: 20vw;
+ min-width: 25vw;
  min-height: 10vh;
 }
