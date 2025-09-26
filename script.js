@@ -12,6 +12,136 @@ var bot = [];
 var int;
 var strInt;
 
+async function plane() {
+    if (strInt) {
+        clearInterval(strInt)
+    }
+    topp = [];
+    inBtwTM = [];
+    mid = [];
+    inBtwMB = [];
+    bot = [];
+
+//       \
+//    >-=>=-
+//       /
+
+    let topWWing1 = ['           \\                                     1'];
+    let topWWing2 = ['              \\                                  2'];
+    let topWWing3 = ['                 \\                               3'];
+    let topWWing4 = ['                    \\                            4'];
+    let topWWing5 = ['                       \\                         5'];
+    let topWWing6 = ['                          \\                      6'];
+    let topWWing7 = ['                             \\                   7'];
+    let topWWing8 = ['                                \\                8'];
+    let topMWB1 =   ['        >-=>͕͐=-                                   1'];
+    let topMWB2 =   ['           >-=>͕͐=-                                2'];
+    let topMWB3 =   ['              >-=>͕͐=-                             3'];
+    let topMWB4 =   ['                 >-=>͕͐=-                          4'];
+    let topMWB5 =   ['                    >-=>͕͐=-                       5'];
+    let topMWB6 =   ['                       >-=>͕͐=-                    6'];
+    let topMWB7 =   ['                          >-=>͕͐=-                 7'];
+    let topMWB8 =   ['                             >-=>͕͐=-              8'];
+    let midWWing1 = ['           /                                     1'];
+    let midWWing2 = ['              /                                  2'];
+    let midWWing3 = ['                 /                               3'];
+    let midWWing4 = ['                    /                            4'];
+    let midWWing5 = ['                       /                         5'];
+    let midWWing6 = ['                          /                      6'];
+    let midWWing7 = ['                             /                   7'];
+    let midWWing8 = ['                                /                8'];
+    let towM1 =     ['                               |   |  |   |      1'];
+    let towM2 =     ['                               |   |  |   |      2'];
+    let towM3 =     ['                               |   |  |   |      3'];
+    let towM4 =     ['                               |   |  |   |      4'];
+    let towM5 =     ['                               |   |  |   |      5'];
+    let towM6 =     ['                               |   |  |   |      6'];
+    let towM7 =     ['                               |   |  |   |      7'];
+    let towM8 =     ['                               |   |  |   |      8'];
+    let towB1 =     ['                               |   |  |   |      1'];
+    let towB2 =     ['                               |   |  |   |      2'];
+    let towB3 =     ['                               |   |  |   |      3'];
+    let towB4 =     ['                               |   |  |   |      4'];
+    let towB5 =     ['                               |   |  |   |      5'];
+    let towB6 =     ['                               |   |  |   |      6'];
+    let towB7 =     ['                               |   |  |   |      7'];
+    let towB8 =     ['                               |   |  |   |      8'];
+
+
+
+    let stateProgress = 1;
+
+    strInt = setInterval(() => {
+        if (stateProgress === 1) {
+            topp = topWWing1;
+            inBtwTM = topMWB1;
+            mid = midWWing1;
+            inBtwMB = towM1;
+            bot = towB1;
+
+            stateProgress = 2;
+        } else if (stateProgress === 2) {
+            topp = topWWing2;
+            inBtwTM = topMWB2;
+            mid = midWWing2;
+            inBtwMB = towM2;
+            bot = towB2;
+
+            stateProgress = 3;
+        } else if (stateProgress === 3) {
+            topp = topWWing3;
+            inBtwTM = topMWB3;
+            mid = midWWing3;
+            inBtwMB = towM3;
+            bot = towB3;
+
+            stateProgress = 4;
+        } else if (stateProgress === 4) {
+            topp = topWWing4;
+            inBtwTM = topMWB4;
+            mid = midWWing4;
+            inBtwMB = towM4;
+            bot = towB4;
+
+            stateProgress = 5;
+        } else if (stateProgress === 5) {
+            topp = topWWing5;
+            inBtwTM = topMWB5;
+            mid = midWWing5;
+            inBtwMB = towM5;
+            bot = towB5;
+
+            stateProgress = 6;
+        } else if (stateProgress === 6) {
+            topp = topWWing6;
+            inBtwTM = topMWB6;
+            mid = midWWing6;
+            inBtwMB = towM6;
+            bot = towB6;
+
+            stateProgress = 7;
+        } else if (stateProgress === 7) {
+            topp = topWWing7;
+            inBtwTM = topMWB7;
+            mid = midWWing7;
+            inBtwMB = towM7;
+            bot = towB7;
+
+            stateProgress = 8;
+        } else if (stateProgress === 8) {
+            topp = topWWing8;
+            inBtwTM = topMWB8;
+            mid = midWWing8;
+            inBtwMB = towM8;
+            bot = towB8;
+
+            stateProgress = 1;
+        }
+        updateTextField();
+    }, 100);
+}
+
+
 
 async function star() {
     if (strInt) {
@@ -193,6 +323,10 @@ function handleInput(event) {
             inputField.value = '';
             water();
         }
+        if (inputField.value === 'plane') {
+            inputField.value = '';
+            plane();
+        }
         if (inputField.value === 'init') {
             inputField.value = '';
             init();
@@ -241,9 +375,6 @@ async function init() {
     drawC(mid, '*^', 9);
 }
 
-
-
 inputField.addEventListener('keydown', handleInput);
-
 
 window.onload = init;
