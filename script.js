@@ -24,29 +24,29 @@ async function star() {
     bot = [];
 
 
-    let starTop1 = ['                    ⢸⡿⢦⣄ ⢀⣠⣴⣶                 '];
+    let starTop1 = ['                    ⡿⢦⣄ ⢀⣠⣴⣶                 '];
     let starTM1 = ['                    ⠘⣷ ⠉⠛⠛⠉⢰⣷                 '];
-    let starM1 = ['                   ⡀⣴⣿⣁⡀ 0   ⢿⣦⡀              '];
-    let starMB1 = ['                   ⠉⠉⠛⢿⣿⡀ ⣰⠟⠛⠛⠉               '];
-    let starBot1 = ['                       ⠈⢿⡿⠏                    '];
+    let starM1 = ['                    ⡀⣴⣁⡀  .  ⢿⣦⡀              '];
+    let starMB1 = ['                    ⠉⠉⠛⣿⡀ ⣰⠟⠛⠛⠉               '];
+    let starBot1 = ['                       ⠈⢿⠏                    '];
 
     let starTop2 = ['                      ⢸⡿⢦⢀⣠⣰                  '];
-    let starTM2 = ['                      ⣷⠛  ⠉⣷                  '];
-    let starM2 = ['                   ⡀⣴⣿⡀ 0  ⢿⣦⡀               '];
+    let starTM2 = ['                      ⣷⠛   ⠉⣷                  '];
+    let starM2 = ['                   ⡀⣴⣿⡀  .  ⢿⣦⡀               '];
     let starMB2 = ['                    ⠉⠛⣿  ⣰⠟⠛⠉                '];
     let starBot2 = ['                      ⠈⢿⠏                     '];
 
     let starTop3 = ['                       ⡀⣰⣼⠀                   '];
     let starTM3 = ['                    ⢳⣶⣶⠉  ⣿⣇⣀             '];
-    let starM3 = ['                     ⣹⣇ 0  ⣿⠿⠋⠁            '];
+    let starM3 = ['                     ⣹⣇ .  ⣿⠿⠋⠁            '];
     let starMB3 = ['                     ⢰⠿⠛⠛⠻⢿⡇⠀⠀            '];
     let starBot3 = ['                     ⠈ ⠀⠀⠀⠀⠋⠀             '];
 
     let starTop4 = ['                    ⢸⢦⣄ ⢀⣠⣴⣇                  '];
     let starTM4 = ['                     ⠘⣷⠉⠛ ⠉⣷⡀             '];
-    let starM4 = ['                   ⡀⣴⣁⡀  0  ⣦⣄⡀           '];
+    let starM4 = ['                   ⡀⣴⣁⡀   .  ⣷⣄⡀           '];
     let starMB4 = ['                   ⠉⠉⠛⢿⡀ ⣰⠟⠛⠉             '];
-    let starBot4 = ['                       ⠈⡿⠏                 '];
+    let starBot4 = ['                       ⠈⠏                 '];
 
 
 
