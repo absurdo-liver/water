@@ -189,6 +189,10 @@ function handleInput(event) {
             inputField.value = '';
             water();
         }
+        if (inputField.value === 'boat') {
+            inputField.value = '';
+            water();
+        }
         if (inputField.value === 'init') {
             inputField.value = '';
             init();
