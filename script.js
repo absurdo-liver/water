@@ -22,33 +22,29 @@ async function plane() {
     inBtwMB = [];
     bot = [];
 
-//       \
-//    >-=>=-
-//       /
-
-    let topWWing1 = ['           \\                   |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing2 = ['              \\                |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing3 = ['                 \\             |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing4 = ['                    \\          |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing5 = ['                       \\       |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing6 = ['                          \\    |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topWWing7 = ['                             \\ |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topWWing1 = ['           ̄\\                   |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing2 = ['              ̄\\                |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing3 = ['                 ̄\\             |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing4 = ['                    ̄\\          |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing5 = ['                       ̄\\       |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing6 = ['                          ̄\\    |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
+    let topWWing7 = ['                             ̄\\ |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|      '];
     let topWWing8 = ['                               |҈̅ ꙰̅ ̅ ҈̅ ꙰̅|҈  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB1 =   ['        >-=>͕͐=-                 |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB2 =   ['           >-=>͕͐=-              |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB3 =   ['              >-=>͕͐=-           |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB4 =   ['                 >-=>͕͐=-        |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB5 =   ['                    >-=>͕͐=-     |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB6 =   ['                       >-=>͕͐=-  |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let topMWB7 =   ['                          >-=>͕͐꙰=- ꙰  ҈ |҈  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB1 =   ['        ̗̀>-̶=>͕͐=-                 |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB2 =   ['           ̗̀>-̶=>͕͐=-              |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB3 =   ['              ̗̀>-̶=>͕͐=-           |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB4 =   ['                 ̗̀>-̶=>͕͐=-        |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB5 =   ['                    ̗̀>-̶=>͕͐=-     |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB6 =   ['                       ̗̀>-̶=>͕͐=-  |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let topMWB7 =   ['                          ̗̀>-̶=>͕͐꙰=- ꙰  ҈ |҈  |͇̿ ͇̿ ͇̿ ͇̿|       '];
     let topMWB8 =   ['                               >꙰-꙰=꙰҈>͕͐꙰=-꙰҈|꙰  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing1 = ['           /                   |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing2 = ['              /                |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing3 = ['                 /             |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing4 = ['                    /          |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing5 = ['                       /       |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing6 = ['                          /    |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
-    let midWWing7 = ['                             / |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing1 = ['           ̠/                   |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing2 = ['              ̠/                |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing3 = ['                 ̠/             |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing4 = ['                    ̠/          |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing5 = ['                       ̠/       |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing6 = ['                          ̠/    |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
+    let midWWing7 = ['                             ̠/ |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
     let midWWing8 = ['                               |꙰ ҈/꙰  ҈|  ҈|   |       '];
     let towM1 =     ['                               |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
     let towM2 =     ['                               |͇̿ ͇̿ ͇̿ ͇̿|  |͇̿ ͇̿ ͇̿ ͇̿|       '];
@@ -298,11 +294,11 @@ async function start() {
     mid = [];
     inBtwMB = [];
     bot = [];
-    await drawC(topp, '~:', 25);
+    draw(topp, '~:~:~:~:~:~:~:~:~:~:~:͇c͇o͇m͇m͇a͇n͇d͇s͇:~:~:~:~:~:~:~:~:~:~');
     await drawC(bot, '<>', 25);
-    await drawC(mid, '`\'', 6);
-    draw(mid, '>type: "water" or "star" <');
-    drawC(mid, '`\'', 6);
+    await drawC(mid, '`\'', 7);
+    draw(mid, '|̲̅b̲̅o̲̅a̲̅t̲̅|̲̅w̲̅a̲̅t̲̅e̲̅r̲̅|̲̅s̲̅t̲̅a̲̅r̲̅|̲̅p̲̅l̲̅a̲̅n̲̅e̲̅|');
+    drawC(mid, '`\'', 7);
 }
 
 function handleInput(event) {
@@ -368,11 +364,11 @@ async function init() {
     mid = [];
     inBtwMB = [];
     bot = [];
-    await drawC(topp, '~|', 25);
-    await drawC(bot, '_-', 25);
-    await drawC(mid, '*^', 9);
-    draw(mid, '..type start..');
-    drawC(mid, '*^', 9);
+    await drawC(topp, '-̲̅-', 25); // -̲̅--̲̅--̲̅--̲̅-
+    await drawC(bot, '_̅-', 25);
+    await drawC(mid, '\'̮v̑', 9);
+    draw(mid, '.̊.type start.̊.');
+    drawC(mid, '\'̮v̑', 9);
 }
 
 inputField.addEventListener('keydown', handleInput);
