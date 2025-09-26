@@ -1,12 +1,13 @@
-body{
+body {
 	margin-top: 40vh;
 	text-align: center;
-	font-family: "NotoSans", "NotoSansSymbols", "NotoSansSymbols2", "NotoSansMono", "DejaVuSansMono", sans-serif;
+	/* leider performance heavy font-family: "NotoSans", "NotoSansSymbols", "NotoSansSymbols2", "NotoSansMono", "DejaVuSansMono", sans-serif; */
 }
 
 
 textarea {
-	white-space: pre-line;
+	white-space: pre;
+  font-family: monospace;
 	width: 400px;
 	height: 100px;
 }
@@ -14,6 +15,8 @@ textarea {
 input {
 	width: 400px;
 }
+
+/* performace heavy :(
 
 @font-face {
   font-family: "NotoSans";
@@ -49,3 +52,5 @@ input {
   font-weight: normal;
   font-style: normal;
 }
+
+*/
